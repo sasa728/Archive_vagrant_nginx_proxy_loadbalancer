@@ -13,16 +13,11 @@ Cílem projektu bylo vytvořit prostředí zahrnující:
 
 == ⚠️ Upozornění - Důležité!
 
-> [!CAUTION]
-> **Archivace a funkčnost**
->
-> Tento repozitář slouží čistě jako **ARCHIVACE** mé dřívější práce.
->
-> Projekt byl vyvinut v rámci specifického studijního zadání a nemusí reprezentovat současné *best practices* nebo být plně v souladu s dnešními verzemi softwaru.
->
-> **Funkčnost negarantována:** Kvůli zastaralým verzím Vagrant boxů, závislostí nebo změnám v konfiguraci operačních systémů není zaručeno, že po klonování a spuštění projekt **okamžitě a správně funguje**.
->
-> Je zde uložen primárně pro účely **dokumentace**, revize kódu a uchování historie mého akademického vývoje.
+
+* Tento repozitář slouží čistě jako **ARCHIVACE** mé dřívější práce.
+* Projekt byl vyvinut v rámci specifického studijního zadání a nemusí reprezentovat současné *best practices* nebo být plně v souladu s dnešními verzemi softwaru.
+* **Funkčnost negarantována:** Kvůli zastaralým verzím Vagrant boxů, závislostí nebo změnám v konfiguraci operačních systémů není zaručeno, že po klonování a spuštění projekt **okamžitě a správně funguje**.
+* Je zde uložen primárně pro účely **dokumentace**, revize kódu a uchování historie mého akademického vývoje.
 
 == 💻 Struktura
 
