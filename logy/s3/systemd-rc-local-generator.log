@@ -1,0 +1,3 @@
+Nov 27 12:52:40 s3 systemd-rc-local-generator[11946]: /etc/rc.d/rc.local is not marked executable, skipping.
+Dec  1 09:21:14 s3 systemd-rc-local-generator[12261]: /etc/rc.d/rc.local is not marked executable, skipping.
+Dec  1 09:31:39 s3 systemd-rc-local-generator[12325]: /etc/rc.d/rc.local is not marked executable, skipping.

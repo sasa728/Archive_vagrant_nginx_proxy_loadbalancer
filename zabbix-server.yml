@@ -1,0 +1,95 @@
+---
+- become: true
+  hosts: server3
+  tasks:
+    - dnf:
+        name: mariadb-server
+        state: latest
+      name: Install MariaDB Server
+    - dnf:
+        name: python3-PyMySQL
+        state: latest
+      name: Install PyMySQL
+    - name: start MariaDB
+      service:
+        enabled: true
+        name: mariadb
+        state: started
+    - dnf:
+        name: haproxy
+        state: latest
+      name: Install HAproxy
+    - name: start haproxy
+      service:
+        enabled: true
+        name: haproxy
+        state: started
+    - dnf:
+        name: php
+        state: latest
+      name: Install php
+    - dnf:
+        name: httpd
+        state: latest
+      name: Install apache
+    - name: Install python
+      dnf:
+        name:
+          - python3
+          - python-pip
+        state: latest
+    - command: pip install zabbix-api
+      name: zabbix api
+    - name: Zabbix Install
+      shell: |
+        dnf -y install php-mysqlnd php-gd php-xml php-bcmath php-ldap
+        dnf -y install zabbix-server-mysql zabbix-web-mysql
+    - command: /usr/bin/mysql -uroot -e "create database zabbix character set utf8mb4
+        collate utf8mb4_bin"
+      name: Create databse for zabbix
+    - command: /usr/bin/mysql -uroot -e " grant all privileges on zabbix.* to
+        zabbix@'localhost' identified by 'password'"
+      name: Create databse for zabbix
+    - command: /usr/bin/mysql -uroot -e "flush privileges"
+      name: Create databse for zabbix
+    - name: Import file db
+      mysql_db:
+        state: import
+        name: zabbix
+        login_user: zabbix
+        login_password: password
+        target: /usr/share/zabbix-mysql/schema.sql
+    - name: Import file db
+      mysql_db:
+        state: import
+        name: zabbix
+        login_user: zabbix
+        login_password: password
+        target: /usr/share/zabbix-mysql/history_pk_prepare.sql
+    - name: Import file db
+      mysql_db:
+        state: import
+        name: zabbix
+        login_user: zabbix
+        login_password: password
+        target: /usr/share/zabbix-mysql/double.sql
+    - name: Import file db
+      mysql_db:
+        state: import
+        name: zabbix
+        login_user: zabbix
+        login_password: password
+        target: /usr/share/zabbix-mysql/images.sql
+    - name: Import file db
+      mysql_db:
+        state: import
+        name: zabbix
+        login_user: zabbix
+        login_password: password
+        target: /usr/share/zabbix-mysql/data.sql
+    - name: Download Zabbix_agent 2
+      command: dnf -y install
+        https://repo.zabbix.com/zabbix/6.0/rhel/9/x86_64/zabbix-release-6.0-3.el9.noarch.rpm
+    - name: Install Zabbix_agent2
+      command: dnf -y install zabbix-agent2 --nobest
+  user: vagrant

@@ -1,0 +1,47 @@
+Nov 18 19:38:29 s1 rsyslogd[552]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="552" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Nov 18 19:38:29 s1 rsyslogd[9418]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="9418" x-info="https://www.rsyslog.com"] start
+Nov 18 19:38:29 s1 rsyslogd[9418]: imjournal: journal files changed, reloading...  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/0 ]
+Nov 18 19:51:03 s1 rsyslogd[560]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="560" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Nov 18 19:51:03 s1 rsyslogd[9373]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workdirectory' specified more than once - one instance is ignored. Fix config [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 18 19:51:03 s1 rsyslogd[9373]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workDirectory' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 18 19:51:03 s1 rsyslogd[9373]: parameters for built-in module builtin:omfile already set - ignored  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2220 ]
+Nov 18 19:51:03 s1 rsyslogd[9373]: error during parsing file /etc/rsyslog.conf, on or before line 92: parameter 'Template' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 18 19:51:03 s1 rsyslogd[9373]: module 'imuxsock' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Nov 18 19:51:03 s1 rsyslogd[9373]: error during parsing file /etc/rsyslog.conf, on or before line 100: parameter 'SysSock.Use' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 18 19:51:03 s1 rsyslogd[9373]: module 'imjournal' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Nov 18 19:51:03 s1 rsyslogd[9373]: error during parsing file /etc/rsyslog.conf, on or before line 103: parameter 'StateFile' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 18 19:51:03 s1 rsyslogd[9373]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="9373" x-info="https://www.rsyslog.com"] start
+Nov 18 19:51:03 s1 rsyslogd[9373]: imjournal: journal files changed, reloading...  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/0 ]
+Nov 27 11:41:40 s1 rsyslogd[573]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="573" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Nov 27 11:41:40 s1 rsyslogd[9318]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workdirectory' specified more than once - one instance is ignored. Fix config [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 11:41:40 s1 rsyslogd[9318]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workDirectory' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 11:41:40 s1 rsyslogd[9318]: parameters for built-in module builtin:omfile already set - ignored  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2220 ]
+Nov 27 11:41:40 s1 rsyslogd[9318]: error during parsing file /etc/rsyslog.conf, on or before line 92: parameter 'Template' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 11:41:40 s1 rsyslogd[9318]: module 'imuxsock' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Nov 27 11:41:40 s1 rsyslogd[9318]: error during parsing file /etc/rsyslog.conf, on or before line 100: parameter 'SysSock.Use' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 11:41:40 s1 rsyslogd[9318]: module 'imjournal' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Nov 27 11:41:40 s1 rsyslogd[9318]: error during parsing file /etc/rsyslog.conf, on or before line 103: parameter 'StateFile' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 11:41:40 s1 rsyslogd[9318]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="9318" x-info="https://www.rsyslog.com"] start
+Nov 27 11:41:40 s1 rsyslogd[9318]: imjournal: journal files changed, reloading...  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/0 ]
+Dec  1 09:07:43 s1 rsyslogd[538]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="538" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Dec  1 09:07:43 s1 rsyslogd[9265]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workdirectory' specified more than once - one instance is ignored. Fix config [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:07:43 s1 rsyslogd[9265]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workDirectory' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:07:43 s1 rsyslogd[9265]: parameters for built-in module builtin:omfile already set - ignored  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2220 ]
+Dec  1 09:07:43 s1 rsyslogd[9265]: error during parsing file /etc/rsyslog.conf, on or before line 92: parameter 'Template' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:07:43 s1 rsyslogd[9265]: module 'imuxsock' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Dec  1 09:07:43 s1 rsyslogd[9265]: error during parsing file /etc/rsyslog.conf, on or before line 100: parameter 'SysSock.Use' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:07:43 s1 rsyslogd[9265]: module 'imjournal' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Dec  1 09:07:43 s1 rsyslogd[9265]: error during parsing file /etc/rsyslog.conf, on or before line 103: parameter 'StateFile' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:07:43 s1 rsyslogd[9265]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="9265" x-info="https://www.rsyslog.com"] start
+Dec  1 09:07:43 s1 rsyslogd[9265]: imjournal: journal files changed, reloading...  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/0 ]
+Dec  1 09:55:53 s1 rsyslogd[537]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="537" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Dec  1 09:55:53 s1 rsyslogd[9298]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workdirectory' specified more than once - one instance is ignored. Fix config [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:55:53 s1 rsyslogd[9298]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workDirectory' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:55:53 s1 rsyslogd[9298]: parameters for built-in module builtin:omfile already set - ignored  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2220 ]
+Dec  1 09:55:53 s1 rsyslogd[9298]: error during parsing file /etc/rsyslog.conf, on or before line 92: parameter 'Template' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:55:53 s1 rsyslogd[9298]: module 'imuxsock' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Dec  1 09:55:53 s1 rsyslogd[9298]: error during parsing file /etc/rsyslog.conf, on or before line 100: parameter 'SysSock.Use' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:55:53 s1 rsyslogd[9298]: module 'imjournal' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Dec  1 09:55:53 s1 rsyslogd[9298]: error during parsing file /etc/rsyslog.conf, on or before line 103: parameter 'StateFile' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:55:53 s1 rsyslogd[9298]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="9298" x-info="https://www.rsyslog.com"] start
+Dec  1 09:55:53 s1 rsyslogd[9298]: imjournal: journal files changed, reloading...  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/0 ]

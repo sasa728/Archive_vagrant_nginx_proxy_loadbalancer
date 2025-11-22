@@ -1,0 +1,7 @@
+Nov 18 20:05:49 s3 httpd[11730]: Server configured, listening on: port 12345
+Nov 27 12:29:20 s3 httpd[11674]: Server configured, listening on: port 12345
+Nov 27 12:52:40 s3 httpd[11674]: Server configured, listening on: port 12345
+Dec  1 09:21:14 s3 httpd[12001]: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Dec  1 09:21:14 s3 httpd[12001]: Server configured, listening on: port 12345
+Dec  1 09:31:39 s3 httpd[11996]: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Dec  1 09:31:39 s3 httpd[11996]: Server configured, listening on: port 12345

@@ -1,0 +1,16 @@
+Dec  1 09:21:14 s3 zabbix_agent2[12339]: Starting Zabbix Agent 2 (6.0.11)
+Dec  1 09:21:14 s3 zabbix_agent2[12339]: Zabbix Agent2 hostname: [Zabbix server]
+Dec  1 09:21:14 s3 zabbix_agent2[12339]: Press Ctrl+C to exit.
+Dec  1 09:21:14 s3 zabbix_agent2[12339]: panic: failed to obtain PID of dead child process: no child processes
+Dec  1 09:21:14 s3 zabbix_agent2[12339]: goroutine 15 [running]:
+Dec  1 09:21:14 s3 zabbix_agent2[12339]: main.listenOnPluginFail(0x0?, {0xc0001af830, 0xa})
+Dec  1 09:21:14 s3 zabbix_agent2[12339]: #011/tmp/build-rhel-9-x86_64.oMWjAjB5/buildroot/BUILD/zabbix-6.0.11/src/go/cmd/zabbix_agent2/external_nix.go:96 +0x168
+Dec  1 09:21:14 s3 zabbix_agent2[12339]: created by main.initExternalPlugin
+Dec  1 09:21:14 s3 zabbix_agent2[12339]: #011/tmp/build-rhel-9-x86_64.oMWjAjB5/buildroot/BUILD/zabbix-6.0.11/src/go/cmd/zabbix_agent2/external.go:94 +0x110
+Dec  1 09:21:24 s3 zabbix_agent2[12364]: 2022/12/01 09:21:24.879125 failed to read response for plugin MongoDB, failed to read type header, EOF
+Dec  1 09:21:24 s3 zabbix_agent2[12364]: Starting Zabbix Agent 2 (6.0.11)
+Dec  1 09:21:24 s3 zabbix_agent2[12364]: Zabbix Agent2 hostname: [Zabbix server]
+Dec  1 09:21:24 s3 zabbix_agent2[12364]: Press Ctrl+C to exit.
+Dec  1 09:31:40 s3 zabbix_agent2[12335]: Starting Zabbix Agent 2 (6.0.11)
+Dec  1 09:31:40 s3 zabbix_agent2[12335]: Zabbix Agent2 hostname: [s3]
+Dec  1 09:31:40 s3 zabbix_agent2[12335]: Press Ctrl+C to exit.

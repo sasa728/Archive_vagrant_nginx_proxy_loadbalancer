@@ -1,0 +1,10 @@
+Dec  1 09:41:30 s3 dnf[12547]: Failed determining last makecache time.
+Dec  1 09:41:30 s3 dnf[12547]: CentOS Stream 9 - BaseOS                         51 kB/s | 8.1 kB     00:00
+Dec  1 09:41:30 s3 dnf[12547]: CentOS Stream 9 - AppStream                      39 kB/s | 8.3 kB     00:00
+Dec  1 09:41:31 s3 dnf[12547]: CentOS Stream 9 - Extras packages                23 kB/s |  12 kB     00:00
+Dec  1 09:41:31 s3 dnf[12547]: Extra Packages for Enterprise Linux 9 - x86_64   78 kB/s |  22 kB     00:00
+Dec  1 09:41:31 s3 dnf[12547]: Extra Packages for Enterprise Linux 9 - Next -  123 kB/s |  33 kB     00:00
+Dec  1 09:41:32 s3 dnf[12547]: Zabbix Official Repository - x86_64             3.5 kB/s | 2.9 kB     00:00
+Dec  1 09:41:33 s3 dnf[12547]: Zabbix Official Repository non-supported - x86_ 3.6 kB/s | 2.9 kB     00:00
+Dec  1 09:41:34 s3 dnf[12547]: Zabbix Official Repository (Agent2 Plugins) - x 3.6 kB/s | 2.9 kB     00:00
+Dec  1 09:41:34 s3 dnf[12547]: Metadata cache created.

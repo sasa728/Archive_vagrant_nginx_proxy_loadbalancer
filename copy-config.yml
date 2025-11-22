@@ -1,0 +1,56 @@
+--- 
+- 
+  become: true
+  hosts: server1
+  tasks: 
+    - 
+      name: "S1 hosts copy"
+      shell: |
+          cat /vagrant/konfigurace/s1hosts >> /etc/hosts
+          cat /vagrant/konfigurace/rsyslog.conf >> /etc/rsyslog.conf
+          systemctl restart rsyslog
+          cat /vagrant/konfigurace/zabbix_agent2_s1.conf > /etc/zabbix/zabbix_agent2.conf
+          systemctl start zabbix-agent2
+  user: vagrant
+- 
+  become: true
+  hosts: server2
+  tasks: 
+    - 
+      name: "S2 hosts copy"
+      shell: |
+          cat /vagrant/konfigurace/s2hosts >> /etc/hosts
+          cat /vagrant/konfigurace/rsyslog.conf >> /etc/rsyslog.conf
+          systemctl restart rsyslog
+          cat /vagrant/konfigurace/zabbix_agent2_s2.conf > /etc/zabbix/zabbix_agent2.conf
+          systemctl start zabbix-agent2
+  user: vagrant
+- 
+  become: true
+  hosts: server3
+  tasks: 
+    - 
+      name: "S3 copy config"
+      shell: |
+          cat /vagrant/konfigurace/s3hosts >> /etc/hosts
+          cat /vagrant/konfigurace/haproxy.cfg > /etc/haproxy/haproxy.cfg
+          cat /vagrant/konfigurace/s3apache > /etc/httpd/conf/httpd.conf
+          systemctl stop haproxy
+          systemctl start haproxy
+          systemctl start httpd
+          cat /vagrant/konfigurace/zabbix_server.conf > /etc/zabbix_server.conf
+          cat /vagrant/konfigurace/zabbix.conf > /etc/httpd/conf.d/zabbix.conf
+          mkdir /usr/share/zabbix/etc
+          mkdir /usr/share/zabbix/etc/zabbix
+          mkdir /usr/share/zabbix/etc/zabbix/web
+          cat /vagrant/konfigurace/zabbix.conf.php >> /usr/share/zabbix/etc/zabbix/web/zabbix.conf.php
+          cat /vagrant/konfigurace/zabbix.conf.php >> /etc/zabbix/web/zabbix.conf.php
+          systemctl start zabbix-server
+          cat /vagrant/konfigurace/rsyslog.conf >> /etc/rsyslog.conf
+          systemctl restart rsyslog
+          cat /vagrant/konfigurace/crontab >> /etc/crontab
+          systemctl restart crond
+          systemctl enable crond
+          cat /vagrant/konfigurace/zabbix_agent2_s3.conf > /etc/zabbix/zabbix_agent2.conf
+          systemctl start zabbix-agent2
+  user: vagrant

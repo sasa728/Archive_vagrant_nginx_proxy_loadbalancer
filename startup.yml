@@ -1,0 +1,10 @@
+--- 
+- 
+  import_playbook: nginx-server.yml
+  name: Nginx-server
+- 
+  import_playbook: zabbix-server.yml
+  name: Zabbix-server
+- 
+  import_playbook: copy-config.yml
+  name: Copy-config

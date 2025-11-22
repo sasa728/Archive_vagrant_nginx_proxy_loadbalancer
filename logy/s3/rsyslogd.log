@@ -1,0 +1,55 @@
+Nov 18 20:05:50 s3 rsyslogd[559]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="559" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Nov 18 20:05:50 s3 rsyslogd[11971]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workdirectory' specified more than once - one instance is ignored. Fix config [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 18 20:05:50 s3 rsyslogd[11971]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workDirectory' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 18 20:05:50 s3 rsyslogd[11971]: parameters for built-in module builtin:omfile already set - ignored  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2220 ]
+Nov 18 20:05:50 s3 rsyslogd[11971]: error during parsing file /etc/rsyslog.conf, on or before line 92: parameter 'Template' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 18 20:05:50 s3 rsyslogd[11971]: module 'imuxsock' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Nov 18 20:05:50 s3 rsyslogd[11971]: error during parsing file /etc/rsyslog.conf, on or before line 100: parameter 'SysSock.Use' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 18 20:05:50 s3 rsyslogd[11971]: module 'imjournal' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Nov 18 20:05:50 s3 rsyslogd[11971]: error during parsing file /etc/rsyslog.conf, on or before line 103: parameter 'StateFile' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 18 20:05:50 s3 rsyslogd[11971]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="11971" x-info="https://www.rsyslog.com"] start
+Nov 18 20:05:50 s3 rsyslogd[11971]: imjournal: journal files changed, reloading...  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/0 ]
+Nov 27 12:29:21 s3 rsyslogd[555]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="555" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Nov 27 12:29:21 s3 rsyslogd[11915]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workdirectory' specified more than once - one instance is ignored. Fix config [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 12:29:21 s3 rsyslogd[11915]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workDirectory' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 12:29:21 s3 rsyslogd[11915]: parameters for built-in module builtin:omfile already set - ignored  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2220 ]
+Nov 27 12:29:21 s3 rsyslogd[11915]: error during parsing file /etc/rsyslog.conf, on or before line 92: parameter 'Template' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 12:29:21 s3 rsyslogd[11915]: module 'imuxsock' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Nov 27 12:29:21 s3 rsyslogd[11915]: error during parsing file /etc/rsyslog.conf, on or before line 100: parameter 'SysSock.Use' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 12:29:21 s3 rsyslogd[11915]: module 'imjournal' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Nov 27 12:29:21 s3 rsyslogd[11915]: error during parsing file /etc/rsyslog.conf, on or before line 103: parameter 'StateFile' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 12:29:21 s3 rsyslogd[11915]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="11915" x-info="https://www.rsyslog.com"] start
+Nov 27 12:29:21 s3 rsyslogd[11915]: imjournal: journal files changed, reloading...  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/0 ]
+Nov 27 12:52:40 s3 rsyslogd[575]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="575" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Nov 27 12:52:40 s3 rsyslogd[11916]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workdirectory' specified more than once - one instance is ignored. Fix config [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 12:52:40 s3 rsyslogd[11916]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workDirectory' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 12:52:40 s3 rsyslogd[11916]: parameters for built-in module builtin:omfile already set - ignored  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2220 ]
+Nov 27 12:52:40 s3 rsyslogd[11916]: error during parsing file /etc/rsyslog.conf, on or before line 92: parameter 'Template' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 12:52:40 s3 rsyslogd[11916]: module 'imuxsock' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Nov 27 12:52:40 s3 rsyslogd[11916]: error during parsing file /etc/rsyslog.conf, on or before line 100: parameter 'SysSock.Use' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 12:52:40 s3 rsyslogd[11916]: module 'imjournal' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Nov 27 12:52:40 s3 rsyslogd[11916]: error during parsing file /etc/rsyslog.conf, on or before line 103: parameter 'StateFile' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Nov 27 12:52:40 s3 rsyslogd[11916]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="11916" x-info="https://www.rsyslog.com"] start
+Nov 27 12:52:40 s3 rsyslogd[11916]: imjournal: journal files changed, reloading...  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/0 ]
+Dec  1 09:21:14 s3 rsyslogd[537]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="537" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Dec  1 09:21:14 s3 rsyslogd[12239]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workdirectory' specified more than once - one instance is ignored. Fix config [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:21:14 s3 rsyslogd[12239]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workDirectory' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:21:14 s3 rsyslogd[12239]: parameters for built-in module builtin:omfile already set - ignored  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2220 ]
+Dec  1 09:21:14 s3 rsyslogd[12239]: error during parsing file /etc/rsyslog.conf, on or before line 92: parameter 'Template' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:21:14 s3 rsyslogd[12239]: module 'imuxsock' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Dec  1 09:21:14 s3 rsyslogd[12239]: error during parsing file /etc/rsyslog.conf, on or before line 100: parameter 'SysSock.Use' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:21:14 s3 rsyslogd[12239]: module 'imjournal' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Dec  1 09:21:14 s3 rsyslogd[12239]: error during parsing file /etc/rsyslog.conf, on or before line 103: parameter 'StateFile' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:21:14 s3 rsyslogd[12239]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="12239" x-info="https://www.rsyslog.com"] start
+Dec  1 09:21:14 s3 rsyslogd[12239]: imjournal: journal files changed, reloading...  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/0 ]
+Dec  1 09:31:39 s3 rsyslogd[581]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="581" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Dec  1 09:31:39 s3 rsyslogd[12296]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workdirectory' specified more than once - one instance is ignored. Fix config [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:31:39 s3 rsyslogd[12296]: error during parsing file /etc/rsyslog.conf, on or before line 89: parameter 'workDirectory' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:31:39 s3 rsyslogd[12296]: parameters for built-in module builtin:omfile already set - ignored  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2220 ]
+Dec  1 09:31:39 s3 rsyslogd[12296]: error during parsing file /etc/rsyslog.conf, on or before line 92: parameter 'Template' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:31:39 s3 rsyslogd[12296]: module 'imuxsock' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Dec  1 09:31:39 s3 rsyslogd[12296]: error during parsing file /etc/rsyslog.conf, on or before line 100: parameter 'SysSock.Use' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:31:39 s3 rsyslogd[12296]: module 'imjournal' already in this config, cannot be added  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2221 ]
+Dec  1 09:31:39 s3 rsyslogd[12296]: error during parsing file /etc/rsyslog.conf, on or before line 103: parameter 'StateFile' not known -- typo in config file? [v8.2102.0-105.el9 try https://www.rsyslog.com/e/2207 ]
+Dec  1 09:31:39 s3 rsyslogd[12296]: [origin software="rsyslogd" swVersion="8.2102.0-105.el9" x-pid="12296" x-info="https://www.rsyslog.com"] start
+Dec  1 09:31:39 s3 rsyslogd[12296]: imjournal: journal files changed, reloading...  [v8.2102.0-105.el9 try https://www.rsyslog.com/e/0 ]
